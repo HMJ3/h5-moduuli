@@ -23,7 +23,7 @@ $ sudo mv reactor/reactor.conf /etc/salt/master.d/
 
 <pre>
 $ sudo systemctl restart salt-master.service
-</pre
+</pre>
 
 **4. Run the Salt state on your minions**
 
