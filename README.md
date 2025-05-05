@@ -6,25 +6,31 @@ It uses Salt reactor to automatically restart nginx if it stops.
 
 ## Setup
 
-**1. Clone the repository**
+**1. Navigate and create a new directory called "salt"**
+
+<pre>
+$ cd /srv && mkdir salt
+</pre>
+
+**2. Clone the repository**
 
 <pre>
 $ git clone https://github.com/HMJ3/h5-moduuli.git
 </pre>
 
-**2. Move the reactor configuration file**
+**3. Move the reactor configuration file**
 
 <pre>
 $ sudo mv h5-moduuli/reactor/reactor.conf /etc/salt/master.d/
 </pre>
 
-**3. Restart the Salt master to apply changes**
+**4. Restart the Salt master to apply changes**
 
 <pre>
 $ sudo systemctl restart salt-master.service
 </pre>
 
-**4. Run the Salt state on your minions**
+**5. Run the Salt state on your minions**
 
 <pre>
 $ sudo salt '*' state.apply h5-moduuli
