@@ -9,13 +9,13 @@ It uses Salt reactor to automatically restart nginx if it stops.
 **1. Navigate and create a new directory called "salt"**
 
 <pre>
-$ cd /srv && mkdir salt
+$ sudo mkdir /srv/salt/ && cd /srv/salt
 </pre>
 
 **2. Clone the repository**
 
 <pre>
-$ git clone https://github.com/HMJ3/h5-moduuli.git
+$ sudo git clone https://github.com/HMJ3/h5-moduuli.git
 </pre>
 
 **3. Move the reactor configuration file**
