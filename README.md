@@ -15,7 +15,7 @@ $ git clone https://github.com/HMJ3/h5-moduuli.git
 **2. Move the reactor configuration file**
 
 <pre>
-$ sudo mv h5-moduulireactor/reactor.conf /etc/salt/master.d/
+$ sudo mv h5-moduuli/reactor/reactor.conf /etc/salt/master.d/
 </pre>
 
 **3. Restart the Salt master to apply changes**
