@@ -35,3 +35,13 @@ $ sudo systemctl restart salt-master.service
 <pre>
 $ sudo salt '*' state.apply h5-moduuli
 </pre>
+
+**All at once**
+
+<pre>
+sudo mkdir -p /srv/salt && cd /srv/salt && \
+sudo git clone https://github.com/HMJ3/h5-moduuli.git && \
+sudo mv h5-moduuli/reactor/reactor.conf /etc/salt/master.d/ && \
+sudo systemctl restart salt-master.service && \
+sudo salt '*' state.apply h5-moduuli
+</pre>
