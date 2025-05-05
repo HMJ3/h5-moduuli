@@ -3,11 +3,11 @@ nginx:
 
 /etc/nginx/nginx.conf:
   file.managed:
-    - source: salt://self-healing-server/services/nginx/nginx.conf
+    - source: salt://h5-moduuli/services/nginx/nginx.conf
 
 /var/www/html/index.nginx-debian.html:
   file.managed:
-    - source: salt://self-healing-server/services/nginx/index.html
+    - source: salt://h5-moduuli/services/nginx/index.html
 
 nginx_service:
   service.running:
@@ -20,7 +20,7 @@ nginx_service:
 #Beacon config
 /etc/salt/minion.d/beacons.conf:
   file.managed:
-    - source: salt://self-healing-server/services/nginx/beacons.conf
+    - source: salt://h5-moduuli/services/nginx/beacons.conf
     - makedirs: True
     - require:
       - pkg: nginx
