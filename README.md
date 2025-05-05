@@ -4,20 +4,6 @@ This SaltStack module automates the setup and monitoring of an nginx service.
 It installs and configures nginx, sets up a Salt beacon to monitor its status.
 It uses Salt reactor to automatically restart nginx if it stops.
 
-**File structure**
-.
-├── init.sls
-├── LICENSE
-├── reactor
-│   ├── reactor.conf
-│   └── recovery.sls
-├── README.md
-└── services
-    └── nginx
-        ├── beacons.conf
-        ├── index.html
-        └── nginx.conf
-
 ## Setup
 
 **1. Clone the repository**
