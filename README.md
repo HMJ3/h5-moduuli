@@ -36,6 +36,8 @@ $ sudo systemctl restart salt-master.service
 $ sudo salt '*' state.apply h5-moduuli
 </pre>
 
+---
+
 **Configure - all at once**
 
 ```
