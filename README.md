@@ -10,13 +10,12 @@ It uses Salt reactor to automatically restart nginx if it stops.
 
 <pre>
 $ git clone https://github.com/HMJ3/h5-moduuli.git
-$ cd h5-moduuli
 </pre>
 
 **2. Move the reactor configuration file**
 
 <pre>
-$ sudo mv reactor/reactor.conf /etc/salt/master.d/
+$ sudo mv h5-moduulireactor/reactor.conf /etc/salt/master.d/
 </pre>
 
 **3. Restart the Salt master to apply changes**
