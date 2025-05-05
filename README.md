@@ -27,5 +27,5 @@ $ sudo systemctl restart salt-master.service
 **4. Run the Salt state on your minions**
 
 <pre>
-$ sudo salt '*' state.apply salt.states
+$ sudo salt '*' state.apply h5-moduuli
 </pre>
