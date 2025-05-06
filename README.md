@@ -5,11 +5,10 @@ It installs and configures nginx, sets up a Salt beacon to monitor its status.
 It uses Salt reactor to automatically restart nginx if it stops.
 
 ![framework](https://github.com/HMJ3/h5-moduuli/blob/main/framework.png)
-([Salt Project](https://docs.saltproject.io/salt/user-guide/en/latest/topics/beacons.html))
 
-Detailed report (in finnish):
+img source: ([Salt Project](https://docs.saltproject.io/salt/user-guide/en/latest/topics/beacons.html))
 
-https://github.com/HMJ3/linux-course/blob/main/assignments/h5.md
+Detailed report (in finnish) here: https://github.com/HMJ3/linux-course/blob/main/assignments/h5.md
 
 ---
 
