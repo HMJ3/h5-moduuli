@@ -1,10 +1,17 @@
-# Event Driven Automation (SaltStack Module)
+# NGINX - Event Driven Automation (SaltStack Module)
 
 This SaltStack module automates the setup and monitoring of an nginx service.
 It installs and configures nginx, sets up a Salt beacon to monitor its status.
 It uses Salt reactor to automatically restart nginx if it stops.
 
 ![framework](https://github.com/HMJ3/h5-moduuli/blob/main/framework.png)
+([Salt Project](https://docs.saltproject.io/salt/user-guide/en/latest/topics/beacons.html))
+
+Detailed report (in finnish):
+
+https://github.com/HMJ3/linux-course/blob/main/assignments/h5.md
+
+---
 
 ## Setup
 
@@ -40,7 +47,7 @@ $ sudo salt '*' state.apply h5-moduuli
 
 ---
 
-**Configure - all at once**
+**Or you can run all commands at once:**
 
 ```
 sudo mkdir -p /srv/salt && cd /srv/salt && \
