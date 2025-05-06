@@ -52,3 +52,14 @@ sudo systemctl restart salt-master.service
 sudo salt '*' state.apply h5-moduuli
 ```
 
+---
+
+**Other commands**
+
+Monitor event-buss:
+
+```
+sudo salt-run state.event pretty=True
+```
+
+
