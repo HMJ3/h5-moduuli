@@ -4,6 +4,8 @@ This SaltStack module automates the setup and monitoring of an nginx service.
 It installs and configures nginx, sets up a Salt beacon to monitor its status.
 It uses Salt reactor to automatically restart nginx if it stops.
 
+![framework](https://github.com/HMJ3/h5-moduuli/blob/main/framework.png)
+
 ## Setup
 
 **1. Navigate and create a new directory called "salt"**
