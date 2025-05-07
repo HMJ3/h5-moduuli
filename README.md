@@ -14,10 +14,10 @@ Detailed report (in finnish) here: https://github.com/HMJ3/linux-course/blob/mai
 
 ## Setup
 
-**1. Navigate and create a new directory called "salt"**
+**1. Create a new directory called "salt"**
 
 <pre>
-$ sudo mkdir /srv/salt/ && cd /srv/salt
+$ sudo mkdir /srv/salt && cd /srv/salt
 </pre>
 
 **2. Clone the repository**
